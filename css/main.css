@@ -1,0 +1,198 @@
+/*******BASE STYLES*******/
+body{
+  font-family: 'Roboto Slab', sans-serif;
+  color: #095256;
+}
+/*******GRID*******/
+.full-width{
+  width:1200px;
+  margin: 0 auto;
+}
+.third-width{
+  width:500px;
+  float:left;
+}
+.half-width-left{
+   width:550px;
+   padding: 0 50px 50px 50px;
+   float:left;
+   margin: 0 auto;
+   clear: both;
+}
+.half-width-right{
+   width:600px;
+
+   float: left;
+   margin: 0 auto;
+}
+/*******HEADER******/
+header{
+  height: 800px;
+  background: url('../img/hero-image.png');
+  background-size: cover;
+}
+header h1{
+  font-family:'Roboto Slab', sans-serif;
+  font-size: 60px;
+  color: #bdbf09;
+  padding: 325px 150px 25px 175px;
+  margin: 0 auto;
+  text-align: center;
+}
+header p{
+  font-family:'Roboto Slab', sans-serif;
+  font-size: 48px;
+  padding: 0 200px 200px 200px;
+  margin: 0 0;
+  text-align: center;
+}
+/*******PORTFOLIO*******/
+.portfolio{
+   margin: 50px 96px 50px 96px;
+   height: 1400px;
+}
+.portfolio h2{
+  font-family:'Roboto Slab', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+#project-one  h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  padding: 0 0 5px 0;
+  margin: 0 auto;
+  clear: both;
+  text-align: left;
+}
+#project-one p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  padding: 0 0 5px 0;
+  margin: 0 auto;
+  clear: both;
+  text-align: left;
+}
+#project-two  h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  padding: 0 0 5px 0;
+  margin: 0 auto;
+  clear: both;
+  text-align: left;
+}
+#project-two p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  padding: 0 0 5px 0;
+  margin: 0 auto;
+  clear: both;
+  text-align: left;
+}
+#project-three  h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  padding: 0 0 5px 0;
+  margin: 0 auto;
+  clear: both;
+  text-align: left;
+}
+#project-three p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  padding: 0 0 5px 0;
+  margin: 0 auto;
+  clear: both;
+  text-align: left;
+}
+/******ABOUT*******/
+#about{
+   height: 600px;
+   padding: 50px 100px 100px 100px;
+   background-color:#087e8b;
+}
+#about h2{
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 100px;
+
+}
+#about p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 20px;
+}
+#about img {
+   padding-left:50px;
+}
+/******CONTACT******/
+.contact{
+  height:450px;
+  background-color:#095156;
+  color: white;
+  margin: 0 auto;
+}
+.contact h3{
+  font-family:'Roboto Slab', sans-serif;
+  font-size: 36px;
+  padding: 70px 100px 90px 100px;
+  text-align: center;
+  margin: 0 auto;
+}
+.contact-info{
+  display:inline-block;
+  padding: 0 50px 0 250px;
+  margin: 0 auto;
+}
+ .one{
+  display: inline-block;
+  float: left;
+  padding: 0 50px 0 50px;
+}
+.one h4, p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  text-align:center;
+
+}
+ .two{
+  float: left;
+  display: inline-block;
+  padding: 0 30px 0 30px;
+}
+.two h4, p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  text-align:center;
+
+}
+.two img{
+   padding: 20px;
+}
+ .three{
+  float: left;
+  display:inline-block;
+  padding: 0 20px 0 20px;
+}
+.three h4, p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  text-align:center;
+
+}
+.copyright{
+  background-color:#095156;
+  color: white;
+  margin: 0  0;
+  clear: both;
+  padding:150px 0 15px 0;
+}
+.copyright p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align:center;
+  color:#ffffff;
+}
